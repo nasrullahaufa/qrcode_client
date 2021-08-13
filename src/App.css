@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.login-form-container {
+  width: 30vw;
+  border-style: solid;
+  border-radius: 1vh;
+}
+
+.changepassword-form-container {
+  width: 30vw;
+  border-style: solid;
+  border-radius: 1vh;
+}
+
+.table-container {
+
+  padding: 3vw;
+  padding-bottom:0.8vh;
+}
+.qr-image {
+  width: 100px !important;
+  height: 100px !important;
+  
+}
+.upload-button{
+  margin-bottom:2vh
+}
+.action-column{
+  width:10vw;
+  text-align: center;
+  vertical-align: middle;
+}
+.no-column{
+  width: 3vw;
+  text-align: center;
+}
+.qr-image-column{
+  width: 300px;
+  text-align: center;
+
+}
+.login-form {
+  padding-top: 3em;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: 2em;
+}
+.changepassword-form {
+  padding-top: 3em;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: 2em;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.search-navbar{
+  margin-right: 8vw;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login-page {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.changepassword-page {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+input[type="file"] {
+  width: calc(99% - (80px + 50px));
+}
+.pagination-button {
+
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+
+}
+
+.pagination-form{
+  width:6vw !important
+}
+
