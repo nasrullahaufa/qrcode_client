@@ -162,9 +162,7 @@ function Pagination() {
             <button
               className="btn btn-default btn-sm pagination-button"
               type="submit"
-            //   onClick={(e) => {
-            //     changePageHandle(e, Number(pageInput));
-            //   }}
+
             >
               Go
             </button>
